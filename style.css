@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #fff;
+    font: 16px/28px arial, sans-serif;
+    color: #333;
+}
+
+.logo img {
+width:80px;
+position: absolute;
+top: 20px;
+left:50px;
+}
+
+
+.container {
+    background-color: #fff;
+    margin: auto;
+    background: hidden;
+    width: 960px;
+    box-shadow: 0 0 20px darkblue;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    /* font-weight: bold; */
+}
+
+.header li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: darkblack;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    background-image: url('gambar/images.png');
+    height: 350px;
+    background-size: cover;
+    background-position: 0 -30px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    float: left;
+}
+
+.main h2 {
+    font-size: 30px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main .penulis {
+    font-size: 15px;
+}
+
+.main .paragraf {
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 10px;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 8px;
+    border-radius: 4px;
+    /* box-shadow: 0 0 10px chocolate; */
+}
+
+.sidebar p {
+    text-align: justify;
+}
+
+.ol li  {
+font-size: 12px;
+margin-right: auto;
+display: inline-block;
+}
+
+.copy {
+    background-color: black;
+    padding: 15px;
+}
+
+.copy p {
+    color: white;
+    text-align: center;
+}
+
+/* membersihkan float */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
